@@ -5,8 +5,8 @@ import type { NextSeoProps } from "next-seo";
 import "./globals.css";
 import Head from "next/head";
 import Favicon from "../logos/airbnb_logo.svg";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/(Navbar)/Navbar";
+import Footer from "@/components/(Footer)/Footer";
 
 // Define metadata using NextSeoProps
 export const metadata: NextSeoProps = {
@@ -36,7 +36,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@300&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto&display=swap"
           rel="stylesheet"
         />
       </Head>
