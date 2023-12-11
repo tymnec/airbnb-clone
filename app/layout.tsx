@@ -4,7 +4,7 @@ import type { NextSeoProps } from "next-seo";
 // Import the required styles and components
 import "./globals.css";
 import Head from "next/head";
-import Favicon from "../assets/logos/airbnb_logo.svg";
+import Favicon from "../logos/airbnb_logo.svg";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -12,17 +12,7 @@ import Footer from "@/components/Footer";
 export const metadata: NextSeoProps = {
   title: "Airbnb Clone",
   description: "Created by Nikhil",
-  openGraph: {
-    type: "website",
-    url: "https://your-website-url.com",
-    site_name: "Your Site Name",
-    images: [
-      {
-        url: "https://your-website-url.com/og-image.jpg",
-        alt: "Og Image Alt",
-      },
-    ],
-  },
+  // metadataBase: new URL('https://acme.com'),
 };
 
 // Define the layout component
